@@ -1,16 +1,38 @@
-# simplofying_make_api_call_using_retrofit
+# [simplofying_make_api_call_using_retrofit](https://www.youtube.com/watch?v=zjNhlmue5Os)
 
-A new Flutter project.
+## 🎨 Project Tree
+```
+- lib
+  - main.dart
+  - model
+    - post_model.dart
+    - post_model.g.dart
+  - pages
+    - home.dart
+  - service
+    - api_service.dart
+    - api_service.g.dart
+```
 
-## Getting Started
+## 📦️ Packages
+```
+dependencies:
+  flutter:
+    sdk: flutter
 
-This project is a starting point for a Flutter application.
+  cupertino_icons: ^1.0.2
+  retrofit: ^4.0.1
+  dio: ^5.3.2
 
-A few resources to get you started if this is your first Flutter project:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  flutter_lints: ^2.0.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  retrofit_generator: ^7.0.8
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+```
+
+## ✨ Make API Call Using Retrofit
